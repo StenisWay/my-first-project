@@ -14,7 +14,7 @@ public class TestServlet extends HttpServlet {
        
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setCharacterEncoding("UTF-8");
-		response.getWriter().append("就只是一個測試而已");
+		response.getWriter().append("我是暴飛龍: \"靠杯~\",\"靠杯~\",\"靠杯~\"");
 	}
 
 }
